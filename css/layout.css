@@ -1,0 +1,55 @@
+header{
+    width: 480px;
+    height: 75px;
+    background-color: red;
+}
+
+footer{
+    clear: both;
+    width: 480px;
+    height: 80px;
+    background-color: violet;
+}
+
+aside{
+    width: 480px;
+    height: 150px;
+    background-color:orangered;
+}
+
+/*desktopish view, more like tablet landscape I think*/
+@media all and (min-width: 768px){
+    header{
+        background-color: lightblue;
+    }
+    
+    footer{
+        background-color: lightskyblue;
+    }
+    
+    aside{
+        background-color: lightseagreen;
+    }    
+}
+@media all and (min-width: 960px){
+
+    header{
+        width: 960px;
+        height: 100px;
+        background-color: violet;
+    }
+    footer{
+        clear: none;
+        width: 760px;
+        height: 150px;
+        float: right;
+        background-color: red;
+    }
+    aside{
+        width: 200px;
+        height: 600px;
+        float: left;
+        background-color: blueviolet;
+    }
+
+}

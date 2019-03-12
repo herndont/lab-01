@@ -1,0 +1,95 @@
+.sectionDiv{
+    width: 480px;
+    height: 125px;
+}
+.contentDiv{
+    width: 240px;
+    height:250px;
+    float: left;
+}
+
+span{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#c{
+    background-color: orange;
+}
+#d{
+    background-color: yellow
+}
+#e{
+    background-color: yellowgreen;
+}
+#f{
+    background-color: green;
+}
+#g{
+    background-color: blue;
+}
+#h{
+    background-color: blueviolet;
+}
+
+/*desktopish view, more like tablet landscape I think*/
+@media all and (min-width: 768px){
+    #c{
+        background-color: lightcyan;
+    }
+    #d{
+        background-color: lightpink;
+    }
+    #e{
+        background-color: lightsalmon;
+    }
+    #f{
+        background-color: lightcoral;
+    }
+    #g{
+        background-color: lightgoldenrodyellow;
+    }
+    #h{
+        background-color: lightgreen;
+    }
+
+}
+@media all and (min-width: 960px){
+
+    .sectionDiv{
+        width: 380px;
+        height: 200px;
+        float: left;
+    }
+
+    .contentDiv{
+        width: 190px;
+        height:250px;
+        float: left;
+    }
+    
+    span{
+        display:table-cell;
+        vertical-align:middle;
+    }
+
+    #c{
+        background-color: blue;
+    }
+    #d{
+        background-color: green;
+    }
+    #e{
+        background-color: yellowgreen;
+    }
+    #f{
+        background-color: yellow;
+    }
+    #g{
+        background-color: orange;
+    }
+    #h{
+        background-color: orangered;
+    }
+
+}
